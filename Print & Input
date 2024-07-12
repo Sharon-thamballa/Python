@@ -1,4 +1,20 @@
 code -
+print(input())
+print(input())
+print(input())
+
+Input-
+Jane
+Ben
+Tom
+
+Output-
+Jane
+Ben
+Tom
+
+====================
+code -
 num1 = int(input())
 num2 = int(input())
 
@@ -11,3 +27,24 @@ Input
 Output
 6
 =========================
+Take the input and calculate the  number of letters in the input
+
+Input
+numOfLetters = len("Angela")
+print(numOfLetters)
+
+Output
+6
+
+Input
+name = len("Angela")
+print(name)
+
+Output
+6
+
+To work with any input 
+
+print(len(input()))
+
+========================
