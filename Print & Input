@@ -48,3 +48,56 @@ To work with any input
 print(len(input()))
 
 ========================
+Input
+print("what is your name")
+
+Output-
+what is your name
+
+========================
+Input
+input("what is your name")
+
+Output-
+what is your name
+
+=========================
+Input
+print("Hello" + input("what is your name"))
+
+Output
+what is your name
+Give your Name - Sharu and hit enter
+Displays
+Hello Sharu
+=========================
+Input
+print("Hello" + input("what is your name") + "!")
+
+Output
+what is your name
+Give your Name - Sharu and hit enter
+Displays
+Hello Sharu!
+============================
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
