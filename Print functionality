@@ -1,14 +1,57 @@
 print()
 print("Hello World!")
 
+Output-
+Hello World!
 
+
+========================================
 Print Modiiers:
 print("she said: "Hello" and then left.")
 print('she said: "Hello" and then left.')
 print("she said: \"Hello"\ and then left.")
+========================================
+
+Input-
+print("Hello World!")
+print("Hello world!\nHi Heelo")
 
 
-LESSON 1 DAY 1 - PRINTING
+Output-
+Hello World!
+Hello world!
+Hi Heelo
+
+Input-
+print("Hello World!")
+print("Hello world!\n Hi Heelo")
+
+
+Output-
+Hello World!
+Hello world!
+ Hi Heelo
+==================================================
+Input-
+print('Hello' + 'Sharu')
+print("Hello" + "Sharu")
+print('Hello' "+" 'Sharu')
+print('Hello' " " 'Sharu')
+print("Hello" + " Sharu")
+print("Hello" + " " + "Sharu")
+
+
+Output-
+HelloSharu
+HelloSharu
+Hello+Sharu
+Hello Sharu
+Hello Sharu
+Hello Sharu
+
+===============================================================
+
+PRINTING
 
 Input-
 print("1. Mix 500g of Flour, 10g Yeast and 300ml Water in a bowl.")
@@ -23,7 +66,7 @@ Output-
 3. Add 3g of Salt.
 4. Leave to rise for 2 hours.
 5. Bake at 200 degrees C for 30 minutes.
-
+===================================================================
 Input-
 print("A 'single quote' inside a double quote")
 print('A "double quote" inside a single quote')
@@ -35,7 +78,7 @@ A 'single quote' inside a double quote
 A "double quote" inside a single quote
 Alternatively you can just "escape" the quote
 
-
+==================================================================
 Input-
 Incorrect one
 print(Day 1 - String Manipulation")
