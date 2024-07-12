@@ -7,9 +7,21 @@ Hello World!
 
 ========================================
 Print Modiiers:
+Incorrect Input-
 print("she said: "Hello" and then left.")
 print('she said: "Hello" and then left.')
 print("she said: \"Hello"\ and then left.")
+
+
+correct Input-
+print("she said: 'Hello' and then left.")
+print('she said: "Hello" and then left.')
+print("she said: \'Hello'\ and then left.")
+
+output-
+print("she said: 'Hello' and then left.")
+print('she said: "Hello" and then left.')
+print("she said: \'Hello'\ and then left.")
 ========================================
 
 Input-
