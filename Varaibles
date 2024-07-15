@@ -37,8 +37,6 @@ b = input()
 # Write your code below this line 👇
 
 
-
-
 # 🚨 Don't change the code below 👇
 print("a: " + a)
 print("b: " + b)
@@ -47,9 +45,70 @@ print("b: " + b)
 Input 
 29
 41
+---------------------------------
+a = input("Enter value a")
+b = input("Enter value b")
+
+c=a
+a=b
+b=c
+
+print("a: " + a)
+print("b: " + b)
 
 Output
+a: 41
+b: 29
 
 
+===========================================
+# There are two variables, a and b
+a = input()
+b = input()
+# Create a third variable to help switch the values
+
+print("a: " + a)
+print("b: " + b)
+
+Input 
+hi
+hello
+------------------------------------------
+a = input("a value is ")
+b = input("b value is ")
+
+c=a
+a=b
+b=c
+
+print("a: " + a)
+print("b: " + b)
+Output-
+hello
+hi
+=============================================
+#1. Create a greeting for your program.
+
+#2. Ask the user for the city that they grew up in.
+
+#3. Ask the user for the name of a pet.
+
+#4. Combine the name of their city and pet and show them their band name.
+
+#5. Make sure the input cursor shows on a new line:
+
+input-
+print("Welcome to the Band Name Generator.")
+street =input("What's the name of the city you grew up in?\n") 
+pet =input("What's your pet's name?\n")
+print("your band name could be " + street + " " + pet)
+
+output-
+Welcome to the Band Name Generator.
+What's the name of the city you grew up in? manuguru
+What's your pet's name? joy
+your band name could be manuguru joy
+
+===============================================
 
 
