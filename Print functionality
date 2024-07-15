@@ -19,9 +19,9 @@ print('she said: "Hello" and then left.')
 print("she said: \'Hello'\ and then left.")
 
 output-
-print("she said: 'Hello' and then left.")
-print('she said: "Hello" and then left.')
-print("she said: \'Hello'\ and then left.")
+she said: 'Hello' and then left.
+she said: "Hello" and then left.
+she said: 'Hello'\ and then left.
 ========================================
 
 Input-
