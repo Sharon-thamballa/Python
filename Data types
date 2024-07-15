@@ -1,0 +1,105 @@
+print("hello"[0])
+
+output- h
+======================
+print("123" + "345")
+
+output - 123345
+=====================
+#integer
+print(123 + 345)
+
+output-  468
+======================
+#Large number commas(,) are replaced by underscore (_) in python
+print(123_345 + 123_345)
+
+ouput - 246690
+======================
+#float (decimals)
+a=78
+b=9
+print(a>b)
+==========================
+#Boolean
+True or False
+============================
+num_char=len(input("what is your name?"))
+print(type(num_char))
+
+Output- 
+Given name - joy
+datatype - int
+=============================
+a = (input("how are you doing ?"))
+print(type(a))
+
+Output- 
+Given input - good
+datatype - str
+================================
+num_char=len(input('what is your name?'))
+new_num_char= str(num_char)
+print("your name has " + new_num_char + " characters")
+
+Output- 
+Given name - joy
+your name has 3 characters
+====================================
+a = 123
+print(type(a))
+
+output - shows int type
+====================================
+a = str(123)
+print(type(a))
+
+output - shows str type
+=====================================
+a = float(123)
+print(type(a))
+
+output - shows float type
+=====================================
+print(70 + float("100.8"))
+print(str(70) + str(100.8))
+
+output -
+170.8
+70100.8
+=====================================
+Write a program that adds the digits in a 2 digit number. e.g. if the input was 35, then the output should be 3 + 5 = 8
+two_digit_number = input()
+# 🚨 Don't change the code above 👆
+####################################
+# Write your code below this line 👇
+
+code-
+two_digit_number = input()
+a=int(two_digit_number[0])
+b=int(two_digit_number[1])
+print(a+b)
+
+output-
+12
+====================================
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
