@@ -1,0 +1,34 @@
+Input-
+name=input("what is your name?")
+print("Hello " + name)
+
+Output-
+Give your name and hit enter
+Displays - Hello Sharu
+===================================
+Input-
+name = 'jack'
+print(name)
+
+output-
+jack
+===================================
+Input-
+print(len(input("what is your name?")))
+
+Output-
+Give input - sara
+Displays - 4
+===================================
+Input-
+name=input("what is your name?")
+length = len(name)
+print(length)
+
+Output-
+Give input - sara
+Displays - 4
+===================================
+
+
+
