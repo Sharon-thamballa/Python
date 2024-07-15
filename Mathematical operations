@@ -23,6 +23,33 @@ print(3*(3+3)/3-3)
 
 Output - 3.0
 ==================================================================================
+# 1st input: enter height in meters e.g: 1.65
+height = input()
+# 2nd input: enter weight in kilograms e.g: 72
+weight = input()
+BMI = weight/ height ^2 ?
+# 🚨 Don't change the code above 👆
+
+# Write your code below this line
+
+a=int(weight)
+print(type(a))
+
+b=float(height)
+print(type(b))
+
+c=(a/(b * b)) or c=(a/(b ** 2))
+d = int(c)
+print(d)
+print(type(d))
+
+
+Output - 
+<class 'int'>
+<class 'float'>
+26
+<class 'int'>
+==================================================================================
 
 
 
