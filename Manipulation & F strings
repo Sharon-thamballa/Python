@@ -1,0 +1,134 @@
+print(8/3) 
+output - 2.6666666666666665
+
+print(int(8/3))   or    print( 8//3)
+output - 2
+
+print(round(8/3))
+output - 3
+
+print(round (8/3,2))
+output - 2.67
+
+print(round(2.666666,3))
+output - 2.667
+
+print(type( 8//3))
+output - int
+
+result = 4/2
+result /= 2
+print(result)
+
+Output - 1
+
+result = 4/2
+result += 2
+print(result)
+
+Output - 4
+
+result = 4/2
+result -= 2
+print(result)
+
+Output - 0
+
+result = 4/2
+result *= 2
+print(result)
+
+Output - 4
+
+score = 1
+score_new = score + 1
+print(score_new)
+
+Output - 2
+
+score = 1
+score=+ 1
+print(score)
+
+Output - 2
+
+score = 1
+score-= 1
+print(score)
+
+Output - 0
+===========================================
+score = 0
+height = 12.3
+iswinning = True
+#f- String
+print(f"your score is {score}") or print("your score is " + str(score))
+
+output -  your score is 0
+
+
+score = 1
+height = 12.3
+iswinning = True
+#f- String
+print(f"your score is {score}, your height is {height}, your winning is {iswinning}")
+
+output - your score is 1, your height is 12.3, your winning is True
+================================================
+Create a program using maths and f-Strings that tells us how many weeks we have left, if we live until 90 years old.
+
+It will take your current age as the input and output a message with our time left in this format:
+
+You have x weeks left.
+
+code-
+age = input(15)
+weeks = (90-int(age)) * 52
+print(weeks)
+
+output -3900
+================================================
+a = int("5") / int(2.7)
+int("5") = 5
+int(2.7) = 2
+a = 5/2 = 2.5 = float
+===============================================
+
+input-
+print("Welcome to the tip calculator!")
+a = input("What was the total bill? $") 
+d = input("How much tip would you like to give? 10, 12, or 15?")
+b = input("How many people to spilt the bill?")
+e = (float(d) * 0.01) * float(100)
+f = e+float(a)
+g = round(f/float(b),2)
+print(f"Each person should pay :$ {g}")
+
+output-
+Welcome to the tip calculator!
+What was the total bill? $100
+How much tip would you like to give? 10, 12, or 15? 12
+How many people to split the bill?2
+Each person should pay: $56.00
+===================================================
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
