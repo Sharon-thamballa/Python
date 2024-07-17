@@ -1,0 +1,68 @@
+input- 
+import random
+random_integer=random.randint(1,10)
+print(random_integer)
+
+output-
+can be anything between 1 and 10, every time you run 
+you will get different number randomly.
+-----------------------------------------------------------------
+Lets say you are running your code in main folder
+and create a new folder name anything example my_module
+inside main you can write code and run 
+sharu = 1234567886
+come to main folder
+code like this example
+code-
+import my_module
+print(my_module)
+
+output-1234567886
+-----------------------------------------------------------------
+import random
+random_number=random.random()
+print(random_number)
+
+output - comes anything randomly between 0 to 1 but not 1
+------------------------------------------------------------------
+How to create random decimal number between 0 and 5
+import random
+random_number=random.random() * 5
+print(random_number)
+
+output - comes anything randomly between 0 to 1
+----------------------------------------------------------------
+love_score=random.randint(1,100)
+print(f"your love score is {love_score}")
+
+output - comes anything randomly between 1 to 100
+=================================================================
+You are going to write a virtual coin toss program. It will randomly tell the user "Heads" or "Tails".
+Important, the first letter should be capitalised and spelt exactly like in the example e.g. "Heads", not "heads".
+you should generate a random number, either 0 or 1. Then use that number to print out "Heads" or "Tails".
+e.g. 1 means Heads 0 means Tails
+
+import random
+a=random.randint(0,1)
+if a == 1:
+    print("Heads")
+else:
+    print("Tails")
+
+Output - Toggles between Heads and Tails
+======================================================================
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
