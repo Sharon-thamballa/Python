@@ -1,0 +1,85 @@
+List Data strctures-
+syntax - list=["item1", "item1"]
+examples
+states_of_india=["Telangana", "Andhra pradesh"]
+
+output = Telangana and Andhra pradesh are saved in states_of_india
+------------------------------------------------------------------
+states_of_india=["Telangana", "Andhra pradesh","kerela","karnataka","uttarpradesh"]
+print(states_of_india [1])
+
+output - Andhra pradesh
+stored in the order they are placed.
+------------------------------------------------------------------
+states_of_india=["Telangana", "Andhra pradesh","kerela","karnataka","uttarpradesh"]
+states_of_india [4]
+
+output - 'uttarpradesh'
+---------------------------------------------------------------------
+states_of_india=["Telangana", "Andhra pradesh","kerela","karnataka","uttarpradesh"]
+states_of_india [-1]
+
+output - 'uttarpradesh'
+-----------------------------------------------------------------------
+states_of_india=['Telangana', 'Andhra pradesh']
+states_of_india[1]
+
+output - 'Andhra pradesh'
+------------------------------------------------------------------------
+states_of_india=["Telangana", "Andhra pradesh","kerela","karnataka","uttarpradesh"]
+states_of_india [0]="TELANGANA"
+print(states_of_india)
+
+output- ['TELANGANA', 'Andhra pradesh', 'kerela', 'karnataka', 'uttarpradesh']
+------------------------------------------------------------------------
+states_of_india=["Telangana", 'Andhra pradesh',"kerela","karnataka","uttarpradesh"]
+states_of_india [0]="TELANGANA"
+states_of_india.append("Sharon")
+print(states_of_india)
+
+output - ['TELANGANA', 'Andhra pradesh', 'kerela', 'karnataka', 'uttarpradesh', 'Sharon']
+-------------------------------------------------------------------------
+states_of_india=["Telangana", 'Andhra pradesh',"kerela","karnataka","uttarpradesh"]
+states_of_india [0]="TELANGANA"
+states_of_india.extend(["Sharon","Evanjali"])
+print(states_of_india)
+
+output - ['TELANGANA', 'Andhra pradesh', 'kerela', 'karnataka', 'uttarpradesh', 'Sharon', 'Evanjali']
+--------------------------------------------------------------------------
+important: You are not allowed to use the choice() function.
+NOTE: In this exercise, you are working collaboratively with another programmer. 
+They already dealt with input() and writing the code needed to get hold of the names in the input area, 
+so you don't need to worry about that.
+The other programmer has written the code to separate the names in the input area into individual names and puts them inside a List called names.
+For their code to work correctly, you must enter all the names in the input area followed by comma then space. e.g. name, name, name
+You can try printing names to see what it looks like (but remember to remove that code when you submit the assignment).
+Assume that names works like this:
+input area: x, y, z, 
+names = ["x", "y", "z"]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
